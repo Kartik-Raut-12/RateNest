@@ -372,7 +372,7 @@ const EditUserModal = ({ user, onClose, onUpdated }: EditUserModalProps) => {
           <input id="e-addr" className={inputCls(false)} value={form.address} onChange={e => setForm(f => ({ ...f, address: e.target.value }))} />
         </Field>
         <Field id="e-role" label="Role">
-          <select id="e-role" className={`${inputCls(false)} cursor-pointer`} value={form.role} onChange={e => setForm(f => ({ ...f, role: e.target.value }))}>
+          <select id="e-role" className={`${inputCls(false)} cursor-pointer`} value={form.role} onChange={e => setForm(f => ({ ...f, role: e.target.value as 'ADMIN' | 'USER' | 'STORE_OWNER' }))}>
             <option value="USER">User</option>
             <option value="ADMIN">Admin</option>
             <option value="STORE_OWNER">Store Owner</option>
