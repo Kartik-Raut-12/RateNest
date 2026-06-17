@@ -4,6 +4,8 @@ A full-stack store rating platform built as a coding challenge. Three distinct u
 
 **Stack:** Express.js · TypeScript · Supabase (PostgreSQL) · React 19 · Vite · Tailwind CSS · Playwright
 
+**Live Demo:** [rate-nest-ive6.vercel.app](https://rate-nest-ive6.vercel.app)
+
 ---
 
 ## What It Does
