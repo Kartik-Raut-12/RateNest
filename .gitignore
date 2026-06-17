@@ -1,5 +1,10 @@
 # Dependencies
 node_modules/
+e2e/node_modules/
+
+# Playwright generated output
+e2e/playwright-report/
+e2e/test-results/
 
 # Environment variables — NEVER commit these
 .env
